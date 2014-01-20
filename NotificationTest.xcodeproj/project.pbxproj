@@ -21,6 +21,8 @@
 		B3A54A9A188CBCF900D53179 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A54A7C188CBCF800D53179 /* UIKit.framework */; };
 		B3A54AA2188CBCF900D53179 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3A54AA0188CBCF900D53179 /* InfoPlist.strings */; };
 		B3A54AA4188CBCF900D53179 /* NotificationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A54AA3188CBCF900D53179 /* NotificationTestTests.m */; };
+		B3A54AB1188CC92E00D53179 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A54AB0188CC92E00D53179 /* image.png */; };
+		B3A54AB3188CC96400D53179 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3A54AB2188CC96400D53179 /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		B3A54A9F188CBCF900D53179 /* NotificationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotificationTestTests-Info.plist"; sourceTree = "<group>"; };
 		B3A54AA1188CBCF900D53179 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3A54AA3188CBCF900D53179 /* NotificationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationTestTests.m; sourceTree = "<group>"; };
+		B3A54AB0188CC92E00D53179 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		B3A54AB2188CC96400D53179 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 		B3A54A6C188CBCF800D53179 = {
 			isa = PBXGroup;
 			children = (
+				B3A54AAD188CC18A00D53179 /* Resources */,
 				B3A54A7E188CBCF800D53179 /* NotificationTest */,
 				B3A54A9D188CBCF900D53179 /* NotificationTestTests */,
 				B3A54A77188CBCF800D53179 /* Frameworks */,
@@ -150,6 +155,15 @@
 				B3A54AA0188CBCF900D53179 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3A54AAD188CC18A00D53179 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3A54AB2188CC96400D53179 /* sound.mp3 */,
+				B3A54AB0188CC92E00D53179 /* image.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,8 @@
 				B3A54A91188CBCF800D53179 /* Images.xcassets in Resources */,
 				B3A54A83188CBCF800D53179 /* InfoPlist.strings in Resources */,
 				B3A54A8C188CBCF800D53179 /* Main.storyboard in Resources */,
+				B3A54AB1188CC92E00D53179 /* image.png in Resources */,
+				B3A54AB3188CC96400D53179 /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
